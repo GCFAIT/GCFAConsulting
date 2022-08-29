@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This is a PowerShell Module for LabTech.
+    This is a PowerShell Module for LabTech and modified by GCFA.
     labtechconsulting.com
     labtechsoftware.com
     msdn.microsoft.com/powershell
@@ -8,7 +8,7 @@
 
 .DESCRIPTION
     This is a set of commandlets to interface with the LabTech Agent.
-    Tested Versions: v10.5, v11, v12, v2019
+    Tested Versions: v10.5, v11, v12, v2019, v22.0.190
 
 .NOTES
     Version:        1.9.0
@@ -37,6 +37,9 @@
 
     Update Date: 9/9/2020
     Purpose/Change: Update to support 64-bit OS without SYSNATIVE redirection (ARM64)
+    
+    Update Date: 08.28.22
+    Purpose/Change: Update to customize for GCFA purposes
 #>
 
 If (-not ($PSVersionTable)) {Write-Warning 'PS1 Detected. PowerShell Version 2.0 or higher is required.';return}
